@@ -16,3 +16,4 @@ permissions:
   f.command:
     default: true
     description: "Allow use of all clans commands"
+
