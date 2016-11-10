@@ -1,7 +1,7 @@
 <?php
-namespace ARCore\AntiHack;
+namespace DCTCore\AntiHack;
 
-use ARCore\AntiHack\AntiHack;
+use DCTCore\AntiHack\AntiHack;
 use pocketmine\scheduler\Task;
 use pocketmine\Server;
 
