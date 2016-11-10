@@ -1,12 +1,12 @@
 <?php
 
-namespace ARCore;
+namespace DCTCore;
 /*/
- * Copyrights Of NeuroBinds Project Corps.
+ * (c)copyright DockCreaTer Team.
  *
  * You May Edit,Sell,Share And Contribute.
  *
- * Somehow I Hate This.
+ * It might be a good core:D
  *
  *
 /*/
@@ -115,12 +115,12 @@ use pocketmine\nbt\tag\CompoundTag;
 //permission
 use pocketmine\permission\Permission;
 //trying to add clans
-use ARCore\Clans\FactionCommands;
-use ARCore\Clans\FactionListener;
+use DCTCore\Clans\FactionCommands;
+use DCTCore\Clans\FactionListener;
 //others.
-//use ARCore\Enchantment\EnchantManager;
+//use DCTCore\Enchantment\EnchantManager;
 //pets implements
-use ARCore\Pets\PetCommand;//
+use DCTCore\Pets\PetCommand;//
 use ARCore\Pets\OcelotPet;//
 use ARCore\Pets\BatPet;//
 use ARCore\Pets\BlazePet;//
@@ -141,17 +141,17 @@ use ARCore\Pets\EndermanPet;//
 use ARCore\Pets\HuskPet;//
 use ARCore\Pets\IronGolemPet;//
 //Auths Implement
-use ARCore\Auth\EventListener;
-use ARCore\Auth\Tasks\PopupTipTick;
-use ARCore\Auth\Tasks\TimeoutTask;
-use ARCore\Auth\Tasks\MessageTick;
-use ARCore\Auth\Commands\ChangePasswordCommand;
-use ARCore\Auth\Commands\ForgotPasswordCommand;
-use ARCore\Auth\Commands\LoginCommand;
+use DCTCore\Auth\EventListener;
+use DCTCore\Auth\Tasks\PopupTipTick;
+use DCTCore\Auth\Tasks\TimeoutTask;
+use DCTCore\Auth\Tasks\MessageTick;
+use DCTCore\Auth\Commands\ChangePasswordCommand;
+use DCTCore\Auth\Commands\ForgotPasswordCommand;
+use DCTCore\Auth\Commands\LoginCommand;
 use ARCore\Auth\Commands\LogoutCommand;
-use ARCore\Auth\Commands\PinCommand;
-use ARCore\Auth\Commands\RegisterCommand;
-use ARCore\Auth\Commands\ResetPasswordCommand;
+use DCTCore\Auth\Commands\PinCommand;
+use DCTCore\Auth\Commands\RegisterCommand;
+use DCTCore\Auth\Commands\ResetPasswordCommand;
 //economys
 use onebone\economyapi\EconomyAPI;
 use ARCore\Particle\ParticleManager;
