@@ -4,7 +4,7 @@ namespace DCTCore\Pets;
 
 class CowPet extends Pets{
 
-const NETWORK_ID = 11;
+	const NETWORK_ID = 11;
 
 	public $width = 0.3;
 	public $length = 0.9;
