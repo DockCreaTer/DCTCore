@@ -1,6 +1,6 @@
 <?php
 
-namespace ARCore\Pets;
+namespace DCTCore\Pets;
 
 class BlockPet extends Pets {
 
@@ -16,4 +16,5 @@ class BlockPet extends Pets {
 		return 0.5;
 	}
   
+	
 }
