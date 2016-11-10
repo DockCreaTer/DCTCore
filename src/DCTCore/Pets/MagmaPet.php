@@ -1,6 +1,6 @@
 <?php
 
-namespace ARCore\Pets;
+namespace DCTCore\Pets;
 
 class MagmaPet extends Pets {
 
