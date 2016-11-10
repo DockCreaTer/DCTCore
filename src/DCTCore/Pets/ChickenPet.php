@@ -1,6 +1,6 @@
 <?php
 
-namespace ARCore\Pets;
+namespace DCTCore\Pets;
 
 class ChickenPet extends Pets {
 
