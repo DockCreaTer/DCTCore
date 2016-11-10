@@ -1,12 +1,12 @@
 <?php
 
-namespace ARCore\AntiHack;
+namespace DCTCore\AntiHack;
 
 use pocketmine\plugin\Plugin;
 use pocketmine\Server;
 
-use ARCore\AntiHack\AntiHackEventListener;
-use ARCore\AntiHack\AntiHackTick;
+use DCTCore\AntiHack\AntiHackEventListener;
+use DCTCore\AntiHack\AntiHackTick;
 
 /**
  * Base class for antihack add-on,
