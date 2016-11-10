@@ -16,4 +16,5 @@ class BlazePet extends Pets {
 		return 0.5;
 	}
   
+	
 }
