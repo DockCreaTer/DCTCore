@@ -1,16 +1,19 @@
 <?php
-namespace ARCore\AntiHack;
+namespace DCTCore\AntiHack;
+
 use pocketmine\event\player\PlayerMoveEvent;
 use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\entity\EntityMotionEvent;
 use pocketmine\event\player\PlayerBucketFillEvent;
 use pocketmine\Player;
 use pocketmine\event\Listener;
-use ARCore\AntiHack\AntiHack;
+use DCTCore\AntiHack\AntiHack;
+
 /**
  * Antihack listener search for non-allowed actions like:
  * flying, fast movings, fill bucket with lava
  */
+
 class AntiHackEventListener implements Listener {
 	const PLAYER_MAX_SPEED = 8;
 	/**@var AntiHack*/
@@ -22,9 +25,11 @@ class AntiHackEventListener implements Listener {
 	public function __construct() {
 		$this->plugin = AntiHack::getInstance();
 	}
+	
 	/**
 	 * @param EntityMotionEvent $event
 	 */
+	
 	public function onEntityMotion(EntityMotionEvent $event){
 		$player = $event->getEntity();
 		if($player instanceof Player){
@@ -33,11 +38,13 @@ class AntiHackEventListener implements Listener {
 			}
 		}
 	}
+	
 	/**
 	 * Look for flying and extraspeed players, increment their hack score
 	 *
 	 * @param PlayerMoveEvent $event
 	 */
+	
 	public function onPLayerMove(PlayerMoveEvent $event) {
 		//http://minecraft.gamepedia.com/Transportation
 		$player = $event->getPlayer();
