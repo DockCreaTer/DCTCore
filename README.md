@@ -59,6 +59,11 @@ A must-have plugin core for an mmoRPG server! Auth from TSRlightda.
 
 
 
+
+
+
+
+
 # <a name="ZHO"></a>中文
 
 # DCTCore
