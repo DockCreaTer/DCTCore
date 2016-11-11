@@ -162,7 +162,7 @@ use DCTCore\ChatFilter\ChatFilterTask;
 //use DCTCore\Listener\EventListenerz;
 //use  DCTCore\AntiHack\AntiHack;//NON-OFFICIAL ANTIHACK
 
-class ARCore extends PluginBase implements Listener{
+class DCTCore extends PluginBase implements Listener{
 
  //TODO
  //Dont Use EconomyAPI [Write Our Own Currency](Why??A:Because this plugin is a core and can be as lagg as freak if there another plugin)[Core are suppose to be ALONE]
