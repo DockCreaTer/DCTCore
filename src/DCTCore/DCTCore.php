@@ -121,25 +121,25 @@ use DCTCore\Clans\FactionListener;
 //use DCTCore\Enchantment\EnchantManager;
 //pets implements
 use DCTCore\Pets\PetCommand;//
-use ARCore\Pets\OcelotPet;//
-use ARCore\Pets\BatPet;//
-use ARCore\Pets\BlazePet;//
-use ARCore\Pets\BlockPet;//
-use ARCore\Pets\ChickenPet;//
-use ARCore\Pets\MagmaPet;//
-use ARCore\Pets\Pets;//
-use ARCore\Pets\PigPet;//
-use ARCore\Pets\RabbitPet;//
-use ARCore\Pets\SheepPet;//
-use ARCore\Pets\SilverfishPet;//
-use ARCore\Pets\SpiderPet;//
-use ARCore\Pets\WitchPet;//
-use ARCore\Pets\WolfPet;//
-use ARCore\Pets\CowPet;//
-use ARCore\Pets\CreeperPet;//
-use ARCore\Pets\EndermanPet;//
-use ARCore\Pets\HuskPet;//
-use ARCore\Pets\IronGolemPet;//
+use DCTCore\Pets\OcelotPet;//
+use DCTCore\Pets\BatPet;//
+use DCTCore\Pets\BlazePet;//
+use DCTCore\Pets\BlockPet;//
+use DCTCore\Pets\ChickenPet;//
+use DCTCore\Pets\MagmaPet;//
+use DCTCore\Pets\Pets;//
+use DCTCore\Pets\PigPet;//
+use DCTCore\Pets\RabbitPet;//
+use DCTCore\Pets\SheepPet;//
+use DCTCore\Pets\SilverfishPet;//
+use DCTCore\Pets\SpiderPet;//
+use DCTCore\Pets\WitchPet;//
+use DCTCore\Pets\WolfPet;//
+use DCTCore\Pets\CowPet;//
+use DCTCore\Pets\CreeperPet;//
+use DCTCore\Pets\EndermanPet;//
+use DCTCore\Pets\HuskPet;//
+use DCTCore\Pets\IronGolemPet;//
 //Auths Implement
 use DCTCore\Auth\EventListener;
 use DCTCore\Auth\Tasks\PopupTipTick;
@@ -148,19 +148,19 @@ use DCTCore\Auth\Tasks\MessageTick;
 use DCTCore\Auth\Commands\ChangePasswordCommand;
 use DCTCore\Auth\Commands\ForgotPasswordCommand;
 use DCTCore\Auth\Commands\LoginCommand;
-use ARCore\Auth\Commands\LogoutCommand;
+use DCTCore\Auth\Commands\LogoutCommand;
 use DCTCore\Auth\Commands\PinCommand;
 use DCTCore\Auth\Commands\RegisterCommand;
 use DCTCore\Auth\Commands\ResetPasswordCommand;
 //economys
 use onebone\economyapi\EconomyAPI;
-use ARCore\Particle\ParticleManager;
-use ARCore\AntiHack\AntiHack;
-use ARCore\ChatFilter\ChatFilter;
-use ARCore\ChatFilter\ChatFilterTask;
+use DCTCore\Particle\ParticleManager;
+use DCTCore\AntiHack\AntiHack;
+use DCTCore\ChatFilter\ChatFilter;
+use DCTCore\ChatFilter\ChatFilterTask;
 
-//use ARCore\Listener\EventListenerz;
-//use  ARCore\AntiHack\AntiHack;//NON-OFFICIAL ANTIHACK
+//use DCTCore\Listener\EventListenerz;
+//use  DCTCore\AntiHack\AntiHack;//NON-OFFICIAL ANTIHACK
 
 class ARCore extends PluginBase implements Listener{
 
