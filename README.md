@@ -71,10 +71,10 @@ A must-have plugin core for an mmoRPG server! Auth from TSRlightda.
 一個mmoRPG伺服器值得擁有的核心插件! 登入功能由 @TSRlightda 改寫.
 
 # Description
-- This plugin has support for PocketMine-MP, ClearSky, Genisys and other software!
-- This plugin is use for an mmoRPG server base!
-- This plugin is currently under construction. Feel free to help us if you can!
-- If you want you can rewrite and sell!!
+- 本插件支持PocketMine-MP, ClearSky, Genisys 和其他PM的第三方核心!
+- 本插件為mmoRPG伺服器的基準插件!
+- 本插件目前處於建設階段 歡迎來一起幫助我們完成!
+- 如果您需要歡迎重寫並販售!!
 
 # TODO LIST:
 - [x] Custom Player Management
